@@ -1,0 +1,87 @@
+body {
+	background-color: rgb(252, 252, 252);
+	margin: 0;
+	font-family: Montserrat Alternates, Helvetica, sans-serif;
+}
+
+h1 {
+	margin: 0 auto;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	height: 120px;
+	text-align: center;
+	font-size: 5em;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #1d9099;
+	text-shadow: -2px -2px 0 #e79c10, -4px -4px 0 #d53a33;
+}
+
+#search-form {
+	display: flex;
+	justify-content: center;
+	padding-top: 4%;
+	width: 100vw;
+}
+
+button {
+	display: block;
+	width: 160px;
+	height: 50px;
+	align-self: center;
+	margin-left: 2%;
+	font-family: Montserrat Alternates, Helvetica, sans-serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition-duration: 250ms;
+}
+
+button:hover {
+	transform: translateY(-3px);
+}
+
+button:active {
+	transform: translateY(4px);
+}
+
+#search-btn {
+	background-color: #1d9099;
+	box-shadow: 2px 2px #085055;
+	border-bottom: 2px solid #085055;
+	border-right: 2px solid #085055;
+	border-top: 2px solid #45a3aa;
+	border-left: 2px solid #45a3aa;
+	color: white;
+}
+
+#clear-btn {
+	background-color: #d53a33;
+	box-shadow: 2px 2px #72231f;
+	border-top: 2px solid #f06962;
+	border-left: 2px solid #f06962;
+	border-bottom: 2px solid #72231f;
+	border-right: 2px solid #72231f;
+	color: white;
+}
+
+input {
+	outline: none;
+	font-family: Montserrat Alternates, Helvetica, sans-serif;
+	padding-left: 10px;
+	font-size: 16px;
+	width: 300px;
+	border-radius: 5px;
+	border: 2px solid #085055;
+}
+
+input:focus {
+	outline: inherit;
+	border: 2px solid #1d9099;
+	box-shadow: inset -3px -3px #1d9099;
+}
+
+.img-result {
+	max-height: 30vh;
+}
